@@ -64,6 +64,11 @@ h3 {
   color: var(--Gray-950);
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: .5s;
+}
+
+h3:hover {
+  color: var(--Yellow);
 }
 
 p {
