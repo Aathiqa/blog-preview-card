@@ -62,6 +62,7 @@ h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   transition: .5s;
+  cursor: pointer;
 }
 
 h3:hover {
@@ -89,4 +90,6 @@ p {
   top: 20px;
   left: 45px;
 }
+
+
 
