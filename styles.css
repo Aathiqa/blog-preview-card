@@ -30,12 +30,12 @@ body {
 }
 
 .card {
-  height: 455px;
-  width: 285px;
+  height: 462px;
+  width: 315px;
   border: 1px solid black;
   background-color: var(--White);
   border-radius: 14px;
-  padding: 18px;
+  padding: 20px;
   box-shadow: 7px 7px 0 black;
   position: absolute;
 }
@@ -100,7 +100,7 @@ p {
 @media (min-width: 375px) {
   .card {
     height: 450px;
-    width: 335px;
+    width: 350px;
   }
 
   img {
