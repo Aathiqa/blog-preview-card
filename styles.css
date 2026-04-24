@@ -40,7 +40,7 @@ body {
   position: absolute;
 }
 
-#bg_img {
+img {
   max-width: 100%;
   height: auto;
   clip-path: inset(0 24px 0 26px round 8px);
@@ -86,6 +86,9 @@ p {
   width: auto;
   padding: 20px 0;
   position: absolute;
+  clip-path: none;
+  object-fit: fill;
+  transform: none;
 }
 
 .author {
@@ -109,7 +112,6 @@ p {
     clip-path: none;
     object-fit: fill;
     transform: none;
-    margin: 0 3px;
     border-radius: 8px;
 }
 
