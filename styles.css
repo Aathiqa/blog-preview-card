@@ -30,8 +30,8 @@ body {
 }
 
 .card {
-  height: 455px;
-  width: 285px;
+  height: 478px;
+  width: 315px;
   border: 1px solid black;
   background-color: var(--White);
   border-radius: 14px;
@@ -40,7 +40,7 @@ body {
   position: absolute;
 }
 
-img {
+#bg_img {
   max-width: 100%;
   height: auto;
   clip-path: inset(0 24px 0 26px round 8px);
@@ -82,7 +82,7 @@ p {
 }
 
 .avatar {
-  height: 65px;
+  height: 75px;
   width: auto;
   padding: 20px 0;
   position: absolute;
@@ -99,8 +99,8 @@ p {
 
 @media (min-width: 375px) {
   .card {
-    height: 450px;
-    width: 335px;
+    height: 498px;
+    width: 350px;
   }
 
   img {
@@ -109,7 +109,7 @@ p {
     clip-path: none;
     object-fit: fill;
     transform: none;
-    margin: 0;
+    margin: 0 3px;
     border-radius: 8px;
 }
 
